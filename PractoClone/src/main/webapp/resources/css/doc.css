@@ -1,0 +1,105 @@
+table.minidetails {
+    width:450px;
+	background-color: #28328c;
+	border: 2em solid white;
+	margin: 2em 2em 2em 1em;
+	padding: 1em 1em 1em 1em;
+	float: left;
+		
+}
+
+table.singledetail {
+ 
+   
+	background-color: #28328c;
+	border: 2em solid white;
+	padding: 1em 1em 1em 1em;
+	margin: auto;
+}
+
+
+button.doc {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-color: #008CBA;
+    
+
+}
+
+
+h2 {
+		color: white;
+	    font: Sans-Serif;
+}
+
+h3 {
+		color: white;
+	    font: Sans-Serif;;
+	
+}
+
+h4{
+		color: white;
+	    font:  Sans-Serif;;
+		
+}
+
+.temp {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-color: #008CBA;
+  float:right;
+   
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+
+.topnav {
+  background-color: white;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+topnav a.active {
+  background-color: white;
+  color: #28328c;
+   float: left;
+   font-size: 22px;
+   font-weight: 900;
+   padding: 14px 16px;
+   width:100%
+}
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  font: Sans-Serif;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: white;
+  color: #28328c;
+   float: left;
+   font-size: 22px;
+   font-weight: 900;
+}

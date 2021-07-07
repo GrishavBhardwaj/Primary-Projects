@@ -1,0 +1,80 @@
+.cust {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-color: #008CBA;
+   
+}
+
+form.minidetails {
+	 float: right;
+	 display: inline-block;
+}
+
+table.minidetails {
+    width:20em;
+	background-color: #28328c;
+	border: 2em solid white;
+	margin: 2em 2em 2em 1em;
+	padding: 1em 1em 1em 1em;
+	float: left;
+}
+
+div.singledetail {
+ 
+   
+	background-color: #28328c;
+	border: 2em solid white;
+	padding: 1em 1em 1em 1em;
+	
+}
+
+
+form.singledetail {
+ 
+   
+	background-color: #28328c;
+	border: 2em solid white;
+	padding: 1em 1em 1em 1em;
+	
+}
+
+
+
+h2 {
+		color: white;
+	    font: Sans-Serif;
+}
+
+h3 {
+		color: white;
+	    font: Sans-Serif;;
+	
+}
+
+h4{
+		color: white;
+	    font:  Sans-Serif;;
+		
+}
+
+
+.topnav {
+  background-color: white;
+  overflow: hidden;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: white;
+  color: #28328c;
+   float: left;
+   font-size: 22px;
+   font-weight: 900;
+}
