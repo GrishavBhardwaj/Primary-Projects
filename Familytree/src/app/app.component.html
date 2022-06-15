@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <br>
+  <h1 style="text-align: center; background-color: #20639b; color:white;">Family Tree</h1> <br>
+  <div class="a">
+      <button class="button button1" (click)="add()">Add Child</button>
+      <button class="button button1" (click)="remove()">Remove Child</button>
+    <br><br>
+    <form style="display:none;" #detail="ngForm" (ngSubmit)="onClickSubmit(detail.value)">
+
+      Enter Name: <input type="text" name="name" placeholder="Enter Name" ngModel>
+  
+      <br />
+  
+      Enter Age: <input type="text" name="age" placeholder="Enter Age" ngModel>
+  
+      <br />
+  
+      Enter Job: <input type="text" name="job" placeholder="Enter Job" ngModel>
+  
+      <br />
+  
+      Enter sex: <input type="text" name="sex" placeholder="Enter Sex" ngModel>
+  
+      <br /><br>
+  
+      <input type="submit" value="Submit Details">
+  
+    </form>
+    <table>
+      <tr>
+        <th colspan="8" style="font-size: 40px;">Parent</th>
+      </tr>
+      <tr>
+        <td colspan="8" id="img1">
+          <img
+            src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/d65ee7111000421.5ff9a76af0694.jpg"
+            (click)="onClick1()" (dblclick)="onDblClick1()" alt="">
+        </td>
+      </tr>
+      <tr>
+        <td colspan="4" style="font-size: 40px;">Child 1 </td>
+        <td colspan="4" style="font-size: 40px;">Child 2 </td>
+      </tr>
+      <tr>
+        <td id="img2" colspan="4" >
+          <img
+            src="https://i.pinimg.com/originals/32/91/86/329186997e330791829c8a518296d06c.jpg"
+            alt="" (click)="onClick2()" (dblclick)="onDblClick2()">
+        </td>
+        <td id="img3" colspan="4">
+          <img
+            src="https://i.pinimg.com/originals/c8/77/93/c877932bc784026b8f9baf525e39da90.jpg"
+            alt="" (click)="onClick3()" (dblclick)="onDblClick3()">
+        </td>
+      </tr>
+    </table>
+  </div>
+</body>
+
+</html>
